@@ -1,8 +1,13 @@
 div {
-    width: 100px;
+    width: 200px;
     height: 60px;
     line-height: 60px;
     border: 1px solid red;
     padding: 10px;
     text-align: center;
+}
+p {
+    background-image:-webkit-linear-gradient(right,red,#fd8403,yellow); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
 }
